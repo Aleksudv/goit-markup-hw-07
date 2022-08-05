@@ -1,0 +1,154 @@
+address {
+    font-style: normal;
+}
+
+.footer {
+    background-color: var(--background-color);
+
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.container-footer {
+    display: flex;
+    align-items: baseline;
+}
+
+.container-logo {
+    margin-bottom: 20px;
+}
+
+.footer-logo {
+    display: flex;
+
+    font-family: raleway;
+    color: var(--color-logo-blue);
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.9;
+}
+
+.footer-studio {
+    color: var(--color-button-white);
+}
+
+/* ADRESS FOOTER */
+
+.adress-reg {
+    display: flex;
+    color: rgba(255, 255, 255, 1);
+
+    font-weight: 400;
+    line-height: 1.7;
+
+    padding-bottom: 9px;
+}
+
+.adress-email {
+    display: flex;
+    padding-bottom: 9px;
+}
+
+.adress-phone {
+    display: flex;
+}
+
+.adress-email,
+.adress-phone {
+    color: rgba(255, 255, 255, 0.6);
+
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.adress-email:hover,
+.adress-phone:hover,
+.adress-email:focus,
+.adress-phone:focus {
+    color: var(--hover-focus-color);
+}
+
+.sotial-title_footer {
+font-family: Roboto, sans-serif;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+    
+color: rgba(255, 255, 255, 1);
+}
+
+.title-first {
+    display: flex;
+    margin-top: 20px;
+    column-gap: 10px;
+}
+
+
+.social-list_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.social-list_footer:hover,
+.social-list_footer:focus {
+    background-color: rgba(33, 150, 243, 1);
+}
+
+.social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    box-sizing: border-box;
+    border-radius: 50%;
+
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-link:hover,
+.social-link:focus {
+    background-color: rgba(33, 150, 243, 1);
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    display: flex;
+}
+
+.container-social_footer {
+    display: flex;
+}
+
+.container-first {
+    display: block;
+    align-items: center;
+    margin-left: 70px;
+}
+
+.social-link_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-social_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+
+    margin-top: 20px;
+}

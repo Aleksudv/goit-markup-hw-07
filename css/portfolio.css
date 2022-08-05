@@ -514,6 +514,11 @@ address {
 }
 
 .email {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.43;
+  letter-spacing: 0.03em;
+
   width: 358px;
   height: 50px;
   resize: none;
@@ -534,6 +539,7 @@ address {
   border: none;
   border-radius: 4px;
 
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   display: flex;

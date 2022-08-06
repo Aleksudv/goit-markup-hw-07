@@ -1,5 +1,5 @@
-.page-header {
-    background-color: var(--background-color-white);
+.header {
+    background-color: rgba(255, 255, 255, 1);
     padding: 24px 0px;
     border: 1px solid #ececec;
     position: relative;
@@ -10,17 +10,22 @@
     align-items: center;
 }
 
-.page-header .wrapper {
+.header .wrapper {
     display: flex;
     justify-content: space-between;
+
+    box-sizing: border-box;
 }
+
+/* LOGO */
+
 .logo {
     display: flex;
     align-items: center;
     justify-content: center;
 
-    font-family: raleway, cursive;
-    color: var(--color-logo-blue);
+    font-family: raleway;
+    color: rgba(33, 150, 243, 1);
 
     font-weight: 700;
     font-size: 26px;
@@ -28,50 +33,20 @@
 }
 
 .studio {
-    color: var(--color-logo-black);
+    color: rgba(0, 0, 0, 1);
 }
 
-/* site-nav */
+/* SITE NAV */
 
 .site-nav {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-left: 93px;
-}
-
-.site-nav .item:not(:last-child) {
-    margin-right: 50px;
-}
-
-.site-nav .link-studio.current {
-    display: block;
-
-    color: var(--accent-color);
-
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-}
-
-.link-studio::after {
-    display: block;
-    content: '';
-
-    position: absolute;
-
-    background-color: rgba(33, 150, 243, 1);
-    width: 48px;
-    height: 4px;
-
-    border-radius: 2px;
-
-    bottom: 0;
+    column-gap: 50px;
 }
 
 .site-nav .link {
-    display: block;
-
     color: var(--primary-text-color);
 
     font-weight: 500;
@@ -84,21 +59,36 @@
     color: var(--hover-focus-color);
 }
 
-/* site-adress */
+.site-nav .link-portfolio.current {
+    color: var(--accent-color);
+
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.link-portfolio::after {
+    display: block;
+    content: '';
+
+    position: absolute;
+
+    background-color: rgba(33, 150, 243, 1);
+    width: 78px;
+    height: 4px;
+
+    border-radius: 2px;
+
+    bottom: 0;
+}
 
 .site-adress {
     display: flex;
     align-items: center;
-}
-
-.site-adress .item:not(:last-child) {
-    margin-right: 50px;
+    column-gap: 50px;
 }
 
 .site-adress .adress {
-    display: flex;
-    align-items: center;
-
     color: var(--title-tex-color);
 
     font-weight: 500;
@@ -106,13 +96,9 @@
     letter-spacing: 0.02em;
 }
 
-.conteiner-site-adress {
-    display: flex;
-}
-
 .adress:hover,
 .adress:focus {
-    color: var(--hover-focus-color);
+    color: var(--accent-color);
 }
 
 .adress:hover .adres_icon,

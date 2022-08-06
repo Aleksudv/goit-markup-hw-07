@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    color: var(--primary-text-color);
+    background-color: var(--accent-color-white);
+
+    font-family: roboto, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    box-sizing: border-box;
+}
+
+.title {
+    display: none;
+}
+
+.main {
+    background-color: var(--accent-color-white);
+}

@@ -23,14 +23,14 @@
     margin-bottom: 30px;
 }
 
-.feature-picture:not(:last-child) {
-    margin-right: 30px;
-}
-
 .feature-picture {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+
+    &:not(:last-child) {
+            margin-right: 30px;
+        }
 }
 
 .feature-comand .feature-title {
@@ -73,12 +73,14 @@
     width: 44px;
     height: 44px;
     border-radius: 50%;
+
+    &:hover,
+    &:focus {
+            background-color: rgba(33, 150, 243, 1);
+        }
 }
 
-.social-list_item-link:hover,
-.social-list_item-link:focus {
-    background-color: rgba(33, 150, 243, 1);
-}
+
 
 .social-list_icon {
     width: 20px;

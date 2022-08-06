@@ -77,11 +77,11 @@
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
-}
 
-.site-nav .link:hover,
-.site-nav .link:focus {
-    color: var(--hover-focus-color);
+    &:hover,
+    &:focus {
+            color: var(--hover-focus-color);
+        }
 }
 
 /* site-adress */

@@ -29,13 +29,15 @@
     outline: 1px solid rgba(175, 177, 184, 1);
     width: 170px;
     height: 92px;
+
+    &:hover,
+    &:focus {
+            fill: rgba(33, 150, 243, 1);
+            outline: 1px solid rgba(33, 150, 243, 1);
+        }
 }
 
-.feature-list-clients:hover,
-.feature-list-clients:focus {
-    fill: rgba(33, 150, 243, 1);
-    outline: 1px solid rgba(33, 150, 243, 1);
-}
+
 
 .company-link {
     display: flex;
@@ -47,10 +49,10 @@
     width: 170px;
     height: 92px;
     border-radius: 4px;
-}
 
-.company-link:hover,
-.company-link:focus {
-    fill: rgba(33, 150, 243, 1);
-    outline: 1px solid rgba(33, 150, 243, 1);
+    &:hover,
+    &:focus {
+            fill: rgba(33, 150, 243, 1);
+            outline: 1px solid rgba(33, 150, 243, 1);
+        }
 }

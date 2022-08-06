@@ -34,13 +34,15 @@
 
     display: inline-block;
     padding: 6px 22px;
+
+    &:hover,
+    &:focus {
+            color: rgba(255, 255, 255, 1);
+            background-color: rgba(33, 150, 243, 1);
+        }
 }
 
-.button-nav .button:hover,
-.button-nav .button:focus {
-    color: rgba(255, 255, 255, 1);
-    background-color: rgba(33, 150, 243, 1);
-}
+
 
 .button-nav {
     display: flex;

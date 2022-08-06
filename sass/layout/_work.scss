@@ -7,12 +7,12 @@
     justify-content: center;
 }
 
-.work-pictures:not(:last-child) {
-    margin-right: 30px;
-}
-
 .work-pictures {
     position: relative;
+
+    &:not(:last-child) {
+            margin-right: 30px;
+        }
 }
 
 .work-name {

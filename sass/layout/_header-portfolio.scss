@@ -1,4 +1,4 @@
-.header {
+.page-header {
     background-color: rgba(255, 255, 255, 1);
     padding: 24px 0px;
     border: 1px solid #ececec;
@@ -19,17 +19,12 @@
 
 /* LOGO */
 
-.logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.page-header__logo {
+    @extend %align;
+    @include font($fs: 26px, $lh: 1.2);
 
     font-family: raleway;
     color: rgba(33, 150, 243, 1);
-
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
 }
 
 .studio {
@@ -39,19 +34,15 @@
 /* SITE NAV */
 
 .site-nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %align;
     margin-left: 93px;
-    column-gap: 50px;
 }
 
 .site-nav .link {
+    @include font($fw:500);
+   
+    letter-spacing: 0.02em;    
     color: var(--primary-text-color);
-
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
 
     &:hover,
     &:focus {
@@ -59,7 +50,7 @@
         }
 }
 
-.site-nav .link-portfolio.current {
+.site-nav__link-portfolio.current {
     color: var(--accent-color);
 
     font-weight: 500;
@@ -67,7 +58,7 @@
     letter-spacing: 0.02em;
 }
 
-.link-portfolio::after {
+.site-nav__link-portfolio::after {
     display: block;
     content: '';
 
@@ -85,7 +76,6 @@
 .site-adress {
     display: flex;
     align-items: center;
-    column-gap: 50px;
 }
 
 .site-adress .adress {

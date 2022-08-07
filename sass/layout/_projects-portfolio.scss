@@ -21,7 +21,7 @@
     line-height: 1.88;
 }
 
-.tex-footer {
+.text__tex-footer {
     background-color: var(--accent-color-white);
     width: 370px;
     height: 404px;
@@ -36,7 +36,7 @@
         }
 }
 
-.tex-footer:hover .tex-overlya {
+.text__tex-footer:hover .tex-overlya {
     transform: translateY(0%);
 }
 

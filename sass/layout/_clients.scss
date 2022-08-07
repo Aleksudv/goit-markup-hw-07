@@ -40,9 +40,7 @@
 
 
 .company-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %align;
     fill: rgba(175, 177, 184, 1);
     outline: 1px solid rgba(175, 177, 184, 1);
 

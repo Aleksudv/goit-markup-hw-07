@@ -20,13 +20,10 @@ address {
 
 .footer-logo {
     display: flex;
+    @include font($fs: 26px, $lh: 1.9);
 
     font-family: raleway;
-    color: var(--color-logo-blue);
-
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.9;
+    color: var(--color-logo-blue);   
 }
 
 .footer-studio {
@@ -37,11 +34,9 @@ address {
 
 .adress-reg {
     display: flex;
+    @include font($fw: 400, $lh: 1.7);
+
     color: rgba(255, 255, 255, 1);
-
-    font-weight: 400;
-    line-height: 1.7;
-
     padding-bottom: 9px;
 }
 
@@ -56,10 +51,9 @@ address {
 
 .adress-email,
 .adress-phone {
-    color: rgba(255, 255, 255, 0.6);
+    @include font($fw: 400, $lh: 1.7);
 
-    font-weight: 400;
-    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .adress-email:hover,
@@ -71,9 +65,7 @@ address {
 
 .sotial-title_footer {
     font-family: Roboto, sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
+    @include font();
     letter-spacing: 0.03em;
     text-transform: uppercase;
     
@@ -88,9 +80,7 @@ address {
 
 
 .social-list_footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %align;
 
     box-sizing: border-box;
     border-radius: 50%;
@@ -139,15 +129,11 @@ address {
 }
 
 .social-link_footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %align;
 }
 
 .container-social_list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %align;
     column-gap: 10px;
 
     margin-top: 20px;

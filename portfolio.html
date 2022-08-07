@@ -15,41 +15,48 @@
     />
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
+
   <body>
-    <header class="header">
+    <header class="page-header">
       <div class="container">
         <div class="wrapper">
           <nav class="cont-nav">
-            <a href="./index.html" class="logo link">Web<span class="studio">Studio</span></a>
+            <a href="./index.html" class="logo page-header__logo link">Web<span class="studio">Studio</span></a>
             <ul class="site-nav list">
-              <li><a href="./index.html" class="transition link">Студия</a></li>
               <li>
-                <a href="./portfolio.html" class="transition link-portfolio current link"
+                <a href="./index.html" class=" link transition">Студия</a>
+              </li>
+              <li>
+                <a href="./portfolio.html" class="site-nav__link-portfolio current link"
                   >Портфолио</a
                 >
               </li>
-              <li><a href="./contacts.html" class="transition link">Контакты</a></li>
+              <li>
+                <a href="./contacts.html" class=" link transition">Контакты</a>
+              </li>
             </ul>
           </nav>
           <ul class="site-adress list">
-            <li class="item">
-              <a href="mailto:info@devstudio.com" class="adress transition link"
-                ><svg class="adres_icon" width="16" height="12">
-                  <use href="./images/social-list/sprite.svg#icon-Vector"></use></svg
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="item">
-              <a href="tel:+380961111111" class="adress transition link"
-                ><svg class="adres_icon" width="10" height="16">
-                  <use href="./images/social-list/sprite.svg#icon-envelope"></use></svg
-                >+38 096 111 11 11</a
+            <div class="conteiner-site-adress">
+              <li class="conteiner-site-adress__item">
+                <a href="mailto:info@devstudio.com" class="adress transition link"
+                  ><svg class="adres_icon" width="16" height="12">
+                    <use href="./images/social-list/sprite.svg#icon-Vector"></use></svg
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="conteiner-site-adress__item">
+                <a href="tel:+380961111111" class="adress transition link"
+                  ><svg class="adres_icon" width="10" height="16">
+                    <use href="./images/social-list/sprite.svg#icon-envelope"></use></svg
+                  >+38 096 111 11 11</a
               >
             </li>
           </ul>
         </div>
       </div>
     </header>
+
     <main class="main">
       <section class="section">
         <div class="container">
@@ -57,16 +64,16 @@
 
           <!--Навигация-->
           <ul class="button-nav list">
-            <li><button type="button" class="button-oll transition">Все</button></li>
-            <li><button type="button" class="button transition">Веб-сайты</button></li>
-            <li><button type="button" class="button transition">Приложения</button></li>
-            <li><button type="button" class="button transition">Дизайн</button></li>
-            <li><button type="button" class="button transition">Маркетинг</button></li>
+            <li><button type="button" class="button-nav__button-oll transition">Все</button></li>
+            <li><button type="button" class="button-nav__button transition">Веб-сайты</button></li>
+            <li><button type="button" class="button-nav__button transition">Приложения</button></li>
+            <li><button type="button" class="button-nav__button transition">Дизайн</button></li>
+            <li><button type="button" class="button-nav__button transition">Маркетинг</button></li>
           </ul>
 
           <!--Список проектов-->
           <ul class="text text-container list">
-            <li class="tex-footer">
+            <li class="text__tex-footer">
               <div class="tex-footer-one">
                 <a href="" class="focus">
                   <img
@@ -87,7 +94,7 @@
                 <p class="text-list">Веб-сайт</p>
               </div>
             </li>
-            <li class="tex-footer">
+            <li class="text__tex-footer">
               <div class="tex-footer-one">
                 <a href="" class="focus">
                   <img
@@ -108,7 +115,7 @@
                 <p class="text-list">Дизайн</p>
               </div>
             </li>
-            <li class="tex-footer">
+            <li class="text__tex-footer">
               <div class="tex-footer-one">
                 <a href="" class="focus">
                   <img
@@ -129,7 +136,7 @@
                 <p class="text-list">Приложение</p>
               </div>
             </li>
-            <li class="tex-footer">
+            <li class="text__tex-footer">
               <div class="tex-footer-one">
                 <a href="" class="focus">
                   <img src="./images-portfolio/img4.jpg" alt="наушники" width="370" height="294" />
@@ -145,7 +152,7 @@
                 <p class="text-list">Маркетинг</p>
               </div>
             </li>
-            <li class="tex-footer">
+            <li class="text__tex-footer">
               <div class="tex-footer-one">
                 <a href="" class="focus">
                   <img
@@ -166,7 +173,7 @@
                 <p class="text-list">Приложение</p>
               </div>
             </li>
-            <li class="tex-footer">
+            <li class="text__tex-footer">
               <div class="tex-footer-one">
                 <a href="" class="focus">
                   <img
@@ -187,7 +194,7 @@
                 <p class="text-list">Веб-сайт</p>
               </div>
             </li>
-            <li class="tex-footer">
+            <li class="text__tex-footer">
               <div class="tex-footer-one">
                 <a href="" class="focus">
                   <img
@@ -208,7 +215,7 @@
                 <p class="text-list">Дизайн</p>
               </div>
             </li>
-            <li class="tex-footer">
+            <li class="text__tex-footer">
               <div class="tex-footer-one">
                 <a href="" class="focus">
                   <img
@@ -230,7 +237,7 @@
                 <p class="text-list">Маркетинг</p>
               </div>
             </li>
-            <li class="tex-footer">
+            <li class="text__tex-footer">
               <div class="tex-footer-one">
                 <a href="" class="focus">
                   <img

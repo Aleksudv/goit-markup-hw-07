@@ -16,22 +16,19 @@
     background-size: cover;
 }
 
-.hero-title {
-    color: var(--background-color-white);
-
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
+.hero__hero-title {
+    @include font($fw: 900, $fs: 44px, $lh: 1.36);
     letter-spacing: 0.06em;
+    
+    color: var(--background-color-white);    
     text-transform: uppercase;
 }
 
-.hero .button {
+.hero__button {
     color: var(--color-button-white);
     background-color: var(--color-button-blue);
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
+
+    @include font($fs: 16px, $lh: 1.88);
     letter-spacing: 0.06em;
 
     padding: 10px 32px;

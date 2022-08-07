@@ -34,12 +34,8 @@
 }
 
 .feature-comand .feature-title {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.9;
-
+    @include font($fw: 500, $fs: 16px, $lh: 1.9);
     text-align: center;
-
     margin-bottom: 10px;
 }
 
@@ -49,10 +45,8 @@
 
 .feature-comand .feature-list {
     color: var(--title-tex-color);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.9;
-
+    @include font($fw: 400, $fs: 16px, $lh: 1.9);
+    
     text-align: center;
 }
 

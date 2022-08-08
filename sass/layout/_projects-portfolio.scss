@@ -6,7 +6,7 @@
     padding-bottom: 94px;
 }
 
-.text .text-title {
+.text-title {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
@@ -14,14 +14,14 @@
     margin-bottom: 4px;
 }
 
-.text .text-list {
+.text-list {
     color: var(--title-tex-color);
 
     font-size: 16px;
     line-height: 1.88;
 }
 
-.text__tex-footer {
+.works__item {
     background-color: var(--accent-color-white);
     width: 370px;
     height: 404px;
@@ -36,20 +36,22 @@
         }
 }
 
-.text__tex-footer:hover .tex-overlya {
+.works__item:hover .tex-overlya {
     transform: translateY(0%);
 }
 
-.container-tex-footer {
-    border: 1px solid #eeeeee;
-    padding: 20px 24px;
-}
-
-.tex-footer-one {
+.works__item__top {
     position: relative;
 
     overflow: hidden;
 }
+
+.works__item__bottom {
+    border: 1px solid #eeeeee;
+    padding: 20px 24px;
+}
+
+
 
 .tex-overlya {
     position: absolute;

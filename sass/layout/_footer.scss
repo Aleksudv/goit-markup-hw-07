@@ -1,4 +1,4 @@
-address {
+.address {
     font-style: normal;
 }
 
@@ -34,6 +34,7 @@ address {
 
 .adress-reg {
     display: flex;
+    font-style: normal;
     @include font($fw: 400, $lh: 1.7);
 
     color: rgba(255, 255, 255, 1);
@@ -42,11 +43,13 @@ address {
 
 .adress-email {
     display: flex;
+    font-style: normal;
     padding-bottom: 9px;
 }
 
 .adress-phone {
     display: flex;
+    font-style: normal;
 }
 
 .adress-email,
@@ -72,14 +75,14 @@ address {
     color: rgba(255, 255, 255, 1);
 }
 
-.title-first {
+.social-list-footer{
     display: flex;
     margin-top: 20px;
     column-gap: 10px;
 }
 
 
-.social-list_footer {
+.social-list-footer__social-list-item {
     @extend %align;
 
     box-sizing: border-box;
@@ -91,7 +94,7 @@ address {
         }
 }
 
-.social-link {
+.social-list-footer__social-link {
     display: flex;
     justify-content: center;
     align-items: center;

@@ -37,9 +37,13 @@
     @extend %align;
     margin-left: 93px;
     column-gap: 50px;
+
+    // font-weight: 500;
+    // font-size: 14px;
+    // line-height: 1.14;
 }
 
-.site-nav__link-studio.current {
+.site-nav__link-studio {
     display: block;
     
     font-weight: 500;
@@ -63,6 +67,34 @@
 
     bottom: 0;
 }
+
+.site-nav__link-portfolio {
+    display: block;
+    
+        font-weight: 500;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+    
+        color: var(--accent-color);
+}
+
+.site-nav__link-portfolio::after {
+    display: block;
+    content: '';
+
+    position: absolute;
+
+    background-color: rgba(33, 150, 243, 1);
+    width: 75px;
+    height: 4px;
+
+    border-radius: 2px;
+
+    bottom: 0;
+}
+
+
+
 
 .site-nav__link {
     display: block;

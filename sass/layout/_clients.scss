@@ -2,7 +2,7 @@
     background-color: var(--background-color-white);
 }
 
-.section-title {
+.section__section-title {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
@@ -13,14 +13,12 @@
 .list-company {
     display: flex;
     justify-content: center;
-}
-
-.container-company {
-    display: flex;
     column-gap: 30px;
 }
 
-.feature-list-clients {
+
+
+.list-company__clients {
     display: flex;
     justify-content: center;
     box-sizing: border-box;

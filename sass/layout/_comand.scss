@@ -2,14 +2,6 @@
     background-color: rgba(245, 244, 250, 1);
 }
 
-.section-title {
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-
-    margin-bottom: 50px;
-}
-
 .feature-comand .feature-picture {
     background-color: var(--background-color-white);
 }
@@ -56,11 +48,11 @@
     padding: 0px 30px 30px 32px;
 }
 
-.social-list_item {
+.social-list__item {
     display: flex;
 }
 
-.social-list_item-link {
+.social-list__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,13 +68,13 @@
 
 
 
-.social-list_icon {
+.social-list__icon {
     width: 20px;
     height: 20px;
     fill: rgba(175, 177, 184, 1);
 }
 
-.social-list_item-link:hover .social-list_icon,
-.social-list_item-link:focus .social-list_icon {
+.social-list__link:hover .social-list__icon,
+.social-list__link:focus .social-list__icon {
     fill: var(--background-color-white);
 }

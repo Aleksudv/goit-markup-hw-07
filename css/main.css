@@ -15,7 +15,7 @@
   --accent-color-white: rgba(255, 255, 255, 1);
 }
 
-.container-social_list, .social-link_footer, .social-list-footer__social-list-item, .company-link, .work-name, .site-nav, .page-header__logo, .modal-button, .contact-form-checkbox-desc, .modal-close-btn, .bacdrop-place {
+.company-link, .work-name, .site-nav, .page-header__logo, .modal-button, .contact-form-checkbox-desc, .modal-close-btn, .bacdrop-place {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -688,6 +688,9 @@ body {
 .social-list {
   display: flex;
   column-gap: 10px;
+}
+
+.social-list-padding {
   padding: 0px 30px 30px 32px;
 }
 
@@ -831,7 +834,16 @@ body {
   color: var(--hover-focus-color);
 }
 
+.container-first {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin-left: 70px;
+}
+
 .sotial-title_footer {
+  display: flex;
+  justify-content: baseline;
   font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 14px;
@@ -839,23 +851,10 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: rgb(255, 255, 255);
+  margin-bottom: 20px;
 }
 
-.social-list-footer {
-  display: flex;
-  margin-top: 20px;
-  column-gap: 10px;
-}
-
-.social-list-footer__social-list-item {
-  box-sizing: border-box;
-  border-radius: 50%;
-}
-.social-list-footer__social-list-item:hover, .social-list-footer__social-list-item:focus {
-  background-color: rgb(33, 150, 243);
-}
-
-.social-list-footer__social-link {
+.social-list__item__them {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -864,33 +863,6 @@ body {
   box-sizing: border-box;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
-}
-.social-list-footer__social-link:hover, .social-list-footer__social-link:focus {
-  background-color: rgb(33, 150, 243);
-}
-
-.footer .container {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  display: flex;
-}
-
-.container-social_footer {
-  display: flex;
-}
-
-.container-first {
-  display: block;
-  align-items: center;
-  margin-left: 70px;
-}
-
-.container-social_list {
-  column-gap: 10px;
-  margin-top: 20px;
 }
 
 .text-container {
